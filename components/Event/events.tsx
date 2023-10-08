@@ -10,7 +10,6 @@ import { ref } from "firebase/storage";
 import { uploadBytes } from 'firebase/storage';
 import { storage, db } from '../../database'
 import { getDownloadURL } from 'firebase/storage';
-import { auth, createUserWithEmailAndPassword } from "../../database"
 import { useEffect } from 'react'
 import Card from 'react-bootstrap/Card';
 import { toast } from "react-toastify";
